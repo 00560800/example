@@ -1,0 +1,20 @@
+.cssA ,.cssB, .cssC, .cssD, .cssE, .cssF{
+   
+    margin: 0 auto;
+    width: 30vw;
+    height: 35vh;
+    top: 75%;
+    
+}
+
+.nav2{
+    display: flex;
+    align-items: center;
+    height: 70px;
+     
+    
+} 
+.nav2-right{
+    display: flex;
+    margin-left: auto;
+}

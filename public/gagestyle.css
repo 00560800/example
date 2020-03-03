@@ -1,0 +1,34 @@
+  
+ 
+ .reload{
+    display: none;
+    
+    
+ }
+ 
+
+ 
+.js-delform{
+    display: none;
+}
+.js-deleteImg{
+    display: none;
+
+}
+.delBtn{
+    display: none;
+}
+ 
+
+
+h1 a:visited{
+    text-decoration: none;
+    color: black;
+}
+a:link{
+    
+    text-decoration: none;
+    color: black;
+}
+
+ 

@@ -1,0 +1,222 @@
+ @media screen and (min-width:336px)
+ {
+.container{
+    z-index: 5;
+    color: white;
+    
+}
+ 
+#cssId{
+    font-size: 25px;
+    cursor: pointer;
+    color: azure;
+}
+.all{
+    position: absolute;
+    top: 60%;
+    width: 100%;
+
+}
+.main{
+     
+    
+    width:100% ;
+    height: 80px;
+    background-color:white;
+    
+    margin: 0 auto;
+    margin-top: 10px;
+    border-style:dashed ;
+    
+}
+ 
+.title{
+    
+    
+    margin-top: 10px; 
+    text-align: center;
+    font-size :  50px;
+    
+    z-index: 1;
+    
+
+}
+ 
+
+.imgDiv{
+     
+    
+     
+    text-align: center;
+     
+    top: 80%;
+    
+
+}
+ 
+  .cssMain{
+     
+    margin: 0 auto;
+    
+    width: 60vw;
+    height: 30vh;
+    
+   
+     
+    z-index: -1;
+
+}
+ 
+ 
+.AbtnDiv,.BbtnDiv,.CbtnDiv,.DbtnDiv,.EbtnDiv,.FbtnDiv{
+    text-align: center;
+    height:6vh;
+    width: 9vw;
+    
+    
+    display: flex;  
+    
+    border: none;
+    cursor: pointer;
+    
+
+ 
+
+}
+.AbtnDiv{
+    position: absolute;
+    top:80%;
+    left: 20vw;
+}
+.BbtnDiv{
+    position: absolute;
+    top:80%;
+    left: 30vw;
+}
+.CbtnDiv{
+    position: absolute;
+    top:80%;
+    left: 40vw;
+}
+.DbtnDiv{
+    position: absolute;
+    top:80%;
+    left: 50vw;
+}
+.EbtnDiv{
+    position: absolute;
+    top:80%;
+    left: 61vw;
+}
+.FbtnDiv{
+    position: absolute;
+    top:80%;
+    left: 71vw;
+}
+button{
+    background-color: transparent !important;
+    background-image: none !important;
+    border-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+
+
+
+ 
+    width: 100%;
+    height: 100%;
+}
+.btn{
+    
+    display: flex;
+
+}
+
+}
+@media screen and (max-width:335px){
+
+
+    .imgDiv{
+     
+    
+     
+        text-align: center;
+       
+         
+        
+    
+    }
+     
+      .cssMain{
+        
+        margin: 0 auto;
+        width: 60vw;
+        height: 30vh;
+        
+       
+         
+        z-index: -1;
+    
+    }
+     
+     
+    .AbtnDiv,.BbtnDiv,.CbtnDiv,.DbtnDiv,.EbtnDiv,.FbtnDiv{
+        text-align: center;
+        height:6vh;
+        width: 9vw;
+        
+        /*
+        display: flex;  
+        background-color: transparent !important;
+        background-image: none !important;
+        border-color: transparent;
+        border: none;
+        cursor: pointer;
+        color: #FFFFFF;
+    
+    */
+    
+    }
+    .AbtnDiv{
+        position: absolute;
+        top:39%;
+        left: 20vw;
+    }
+    .BbtnDiv{
+        position: absolute;
+        top:39%;
+        left: 30vw;
+    }
+    .CbtnDiv{
+        position: absolute;
+        top:39%;
+        left: 40vw;
+    }
+    .DbtnDiv{
+        position: absolute;
+        top:39%;
+        left: 50vw;
+    }
+    .EbtnDiv{
+        position: absolute;
+        top:39%;
+        left: 61vw;
+    }
+    .FbtnDiv{
+        position: absolute;
+        top:39%;
+        left: 71vw;
+    }
+    button{
+        width: 100%;
+        height: 100%;
+    }
+    .btn{
+        
+        display: flex;
+    
+    }
+
+
+}

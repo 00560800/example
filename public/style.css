@@ -1,0 +1,40 @@
+.main{
+    margin: 0 auto;
+    margin-top: -10px;
+}
+
+.title{
+    text-align: center; 
+    font-size: 35px;
+    color: #fdcb6e;
+    
+
+}
+ 
+ 
+
+.nav{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    border-bottom: paleturquoise solid 5px;
+    
+}               
+.nav-right-items{
+    display: flex;          /* 오른쪽여백을 없애서 오른쪽으로 붙인다.        */
+    margin-left: auto;
+}
+.nav-item{
+    font-size: 20px;
+    color: #fd79a8;
+}
+
+ 
+.gagedo:link{
+    text-decoration: none;
+    color:"black";
+}
+.gagedo:visited{
+    text-decoration: none;
+    color: black;
+}
